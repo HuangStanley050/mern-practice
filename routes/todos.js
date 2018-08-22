@@ -10,7 +10,7 @@ router.route("/")
 
 router.route("/:todoID")
     .get(helpers.getTodo)
-    .put(helpers.createTodo)
+    .put(helpers.updateTodo)
     .delete(helpers.deleteTodo);
 
 
